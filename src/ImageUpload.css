@@ -1,0 +1,30 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  align-items: center;
+}
+
+.imageupload__progress {
+  height: 10px;
+  width: 70%;
+}
+
+.imageupload__caption {
+  border: none;
+  width: 70%;
+  height: 20px;
+  padding: 15px;
+}
+
+.imageupload__caption:checked {
+  border: none;
+  height: 20px;
+}
